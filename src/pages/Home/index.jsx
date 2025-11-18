@@ -2,6 +2,8 @@ import HeroFullWidthCard from "../../components/HeroFullWidthCard";
 import HalfImageHalfCopy from "../../components/HalfImageHalfCopy";
 import ListingHeader from "../../components/ListingHeader";
 import PromoRow from "../../components/PromoRow";
+import PersonalizationSignup from "../../components/PersonalizationSignup";
+import FullWidthTestimonial from "../../components/FullWidthTestimonial";
 
 function Home() {
   return (
@@ -10,7 +12,7 @@ function Home() {
         title="The Future of Personalized Health Learning Begins Here"
         subheading="Launching summer 2026. Be the first to explore the American Heart Association's groundbreaking Patient Education Hub."
         buttonText="Reserve Your Spot Today"
-        buttonUrl="https://mygiving.heart.org/-/XCKECFGJ"
+        buttonUrl="#signup"
         imgSrc="https://placehold.co/700x400/EEE/DDD?text=FPO"
         imgAlt="placeholder image"
       />
@@ -40,6 +42,8 @@ function Home() {
         subheading="Our platform serves diverse health education needs."
       />
       <PromoRow />
+      <PersonalizationSignup />
+      <FullWidthTestimonial />
     </div>
   );
 }
