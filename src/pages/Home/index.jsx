@@ -1,4 +1,4 @@
-import HeroFullWidthCard from "../../components/HeroFullWidthCard";
+import HeroFullWidth from "../../components/HeroFullWidth";
 import HalfImageHalfCopy from "../../components/HalfImageHalfCopy";
 import ListingHeader from "../../components/ListingHeader";
 import PromoRow from "../../components/PromoRow";
@@ -8,9 +8,10 @@ import FullWidthTestimonial from "../../components/FullWidthTestimonial";
 function Home() {
   return (
     <div className="home">
-      <HeroFullWidthCard
-        title="The Future of Personalized Health Learning Begins Here"
-        subheading="Launching summer 2026. Be the first to explore the American Heart Association's groundbreaking Patient Education Hub."
+      <HeroFullWidth
+        logoText="American Heart Association"
+        heading="The Future of Personalized Health Learning Begins Here"
+        subHeading="Launching summer 2026. Be the first to explore the American Heart Association's groundbreaking Patient Education Hub."
         buttonText="Reserve Your Spot Today"
         buttonUrl="#signup"
         imgSrc="https://placehold.co/700x400/EEE/DDD?text=FPO"
